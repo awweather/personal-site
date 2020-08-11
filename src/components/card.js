@@ -1,6 +1,5 @@
 import React from "react"
 import cardStyles from "./card.module.scss";
-import classNames from "classNames";
 
 const Card = ({ title, subtitle, description, link }) => {
   return (
