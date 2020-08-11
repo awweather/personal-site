@@ -13,7 +13,7 @@ module.exports = {
   /* Your site config here */
   siteMetadata: {
     title: "Anthony Weatherly",
-    description: "I'm a Software Engineer who loves JavaScript",
+    description: "I'm a Software Engineer who's passionate about JavaScript",
     author: "Anthony Weatherly",
   },
   plugins: [

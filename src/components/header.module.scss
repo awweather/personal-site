@@ -22,18 +22,22 @@
 }
 
 .hero-content {
-  position: absolute;
-  top: 35%;
+  // position: absolute;
+  //top: 50%;
   margin: 0;
+  margin-left: 20px;
   text-align: center;
-  width: 100%;
   text-transform: uppercase;
 }
 
 .hero-container {
   position: absolute;
-  top: 5%;
+  // top: 12%;
+  height: 90%;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .brand {
@@ -96,9 +100,10 @@
 }
 
 .avatar {
-  max-width: 250px;
-  max-height: 250px;
-
+  max-width: 200px;
+  max-height: 200px;
+  min-width: 50px;
+  width: 100%;
   img {
     border-radius: 50%;
   }

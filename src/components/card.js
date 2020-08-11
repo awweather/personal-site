@@ -1,20 +1,20 @@
 import React from "react"
 import cardStyles from "./card.module.scss";
 
-const Card = ({ title, subtitle, description, link }) => {
+const Card = ({ title, subtitle, description, link, image }) => {
   return (
     <div>
       <div className={cardStyles.blogCard}>
         <div className={cardStyles.meta}>
           <div
             className={cardStyles.photo}
-            style={{backgroundImage: "url(https://pbs.twimg.com/profile_images/1078365773528215555/7sH-9Oxc.jpg)"}}
+            style={{backgroundImage: `url(${image})`}}
           ></div>
           <ul className={cardStyles.details}>
             <li className={cardStyles.author}>
-              <a href="#">John Doe</a>
+              <a href="#">Anthony Weatherly</a>
             </li>
-            <li className={cardStyles.date}>Aug. 24, 2015</li>
+            {/* <li className={cardStyles.date}>Aug. 24, 2015</li>
             <li className={cardStyles.tags}>
               <ul>
                 <li>
@@ -30,7 +30,7 @@ const Card = ({ title, subtitle, description, link }) => {
                   <a href="#">CSS</a>
                 </li>
               </ul>
-            </li>
+            </li> */}
           </ul>
         </div>
         <div className={cardStyles.description}>

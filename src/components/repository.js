@@ -23,7 +23,9 @@ const Repository = () => {
         <Card 
           title={repository.name}
           description={repository.description}
-          link={repository.url}>
+          link={repository.url}
+          image="https://github.githubassets.com/images/modules/open_graph/github-logo.png"
+          >
         </Card>
       ))}
     </div>
